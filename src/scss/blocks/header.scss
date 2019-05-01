@@ -1,0 +1,33 @@
+.header {
+  min-height: 1334px;
+  background-image: url("../../img/header-bg.png");
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../../img/header-bg@2x.png");
+    background-size: 1920px auto;
+  }
+}
+
+.header__logo {
+  padding-top: 8px;
+  font-family: "FivoSans-Heavy", "Arial", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  color: $red-color;
+  cursor: default;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 68px;
+  width: 1420px;
+  margin: 0 auto;
+}
+
+.header__intro {
+  margin-top: 170px;
+  margin-left: 360px;
+}

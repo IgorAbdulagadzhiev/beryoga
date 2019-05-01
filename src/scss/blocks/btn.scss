@@ -1,0 +1,30 @@
+.btn {
+  background-color: $red-color;
+  color: #ffffff;
+  border: 2px $red-color solid;
+  border-radius: 30px 30px 30px 30px;
+
+  &:hover {
+    background-color: #bf406b;
+    border-color: #bf406b;
+  }
+
+  &:active {
+    background-color: #b2386a;
+    color: #ffffff;
+    border-color: #b2386a;
+  }
+
+  &--shadow {
+    box-shadow: -15px 20px 40px -12px $red-color;
+  }
+
+  &--transparent {
+    background-color: transparent;
+    color: #f82a56;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}

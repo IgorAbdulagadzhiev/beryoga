@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 125px;
+  width: 473px;
+  list-style: none;
+}
+
+.nav__link {
+  line-height: 36px;
+  color: #1c2056;
+
+  &:hover {
+    color: $red-color;
+  }
+
+  &--active {
+    font-weight: bold;
+    color: $red-color;
+  }
+}

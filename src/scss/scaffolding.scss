@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "FivoSans-Heavy";
+  src: url("../fonts/FivoSans-Heavy.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FivoSans";
+  src: url("../fonts/FivoSans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FivoSans";
+  src: url("../fonts/FivoSans-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "FivoSans";
+  src: url("../fonts/FivoSans-Light.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FivoSans";
+  src: url("../fonts/FivoSans-Thin-Oblique.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #fbfcfc;
+}
+
+body {
+  background-color: #fbfcfc;
+  font-family: "FivoSans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+

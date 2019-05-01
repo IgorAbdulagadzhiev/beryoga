@@ -1,0 +1,58 @@
+.ways {
+  display: flex;
+  flex-direction: row;
+
+  padding: 200px 0 0 0;
+}
+
+.ways__img-container {
+  margin: 50px 0 0 178px;
+}
+
+.ways__main {
+  width: 680px;
+  margin: 0 0 0 70px;
+}
+
+.ways__title {
+  margin: 0;
+
+  font-size: 50px;
+  line-height: 67px;
+  color: $title-color;
+  font-weight: bold;
+}
+
+.ways__text {
+  margin: 80px 0 0 0;
+  padding: 0 0 0 120px;
+  width: 675px;
+
+  text-indent: 55px;
+  line-height: 40px;
+  color: $text-color;
+  font-weight: 100;
+
+  &:nth-child(3) {
+    margin: 0;
+  }
+}
+
+.ways__link {
+  display: inline-block;
+
+  margin: 100px 0 0 0;
+  padding-left: 120px;
+
+  line-height: 40px;
+  color: #3cbef1;
+  font-style: italic;
+
+  &:hover {
+    color: $red-color;
+  }
+
+  &:active {
+    color: #b2386a;
+  }
+}

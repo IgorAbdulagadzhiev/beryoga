@@ -1,0 +1,37 @@
+.intro {
+  width: 560px;
+}
+
+.intro__title {
+  margin: 0;
+  color: #3b3838;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.intro__text {
+  margin: 0;
+  margin-top: 30px;
+
+  width: 480px;
+  font-weight: 100;
+
+  color: $text-color;
+}
+
+.intro__btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 507px;
+  margin-top: 40px;
+  margin-left: -5px;
+}
+
+.intro__btn {
+  width: 240px;
+  height: 80px;
+  border-radius: 50px;
+}
+

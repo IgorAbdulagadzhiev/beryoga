@@ -1,0 +1,77 @@
+.healing {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 280px;
+}
+
+.healing__main {
+  width: 550px;
+  margin: 110px 0 0 307px;
+}
+
+.healing__cite {
+  position: relative;
+
+  margin: 0;
+  padding: 0 60px 0 0;
+
+  font-style: italic;
+  font-size: 20px;
+  line-height: 40px;
+  color: $text-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+
+    width: 52px;
+    height: 1px;
+    background-color: #9e9f9f;
+  }
+}
+
+.healing__title {
+  margin: 0;
+
+  font-size: 50px;
+  line-height: 60px;
+  color: $title-color;
+}
+
+.healing__text {
+  width: 385px;
+
+  margin: 40px 0 0 0;
+  padding-left: 55px;
+
+  line-height: 40px;
+  font-weight: 100;
+  color: $text-color;
+}
+
+.healing__link {
+  display: inline-block;
+
+  margin: 40px 0 0 0;
+  padding-left: 55px;
+
+  line-height: 40px;
+  color: #3cbef1;
+  font-style: italic;
+
+  &:hover {
+    color: $red-color;
+  }
+
+  &:active {
+    color: #b2386a;
+  }
+}
+
+.healing__img-container {
+  margin: 0 0 0 100px;
+}

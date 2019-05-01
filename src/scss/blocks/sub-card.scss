@@ -1,0 +1,151 @@
+.sub-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 690px;
+  width: 469px;
+
+  margin-top: 42px;
+
+  border-radius: 15px;
+  background: #ffffff;
+}
+
+.sub-card__title {
+  margin: 70px 0 0 0;
+
+  font-size: 30px;
+  line-height: 30px;
+  color: #494949;
+  font-weight: bold;
+
+  opacity: 0.8;
+}
+
+.sub-card__list {
+  margin: 19px 0 0 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.sub-card__item {
+  position: relative;
+
+  margin: 28px 0 0 0;
+  padding: 0 0 0 72px;
+
+  font-size: 18px;
+  line-height: 38px;
+  color: #494949;
+  opacity: 0.8;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    width: 38px;
+    height: 38px;
+
+    left: 0;
+    top: 0;
+
+    background-image: url("../../img/icon-blue.png");
+  }
+}
+
+.sub-card__price {
+  margin: 54px 0 0 0;
+
+  font-size: 150px;
+  line-height: 150px;
+  color: #3b3838;
+  opacity: 0.7;
+}
+
+.sub-card__sup {
+  vertical-align: text-top;
+  font-size: 38px;
+  line-height: 40px;
+  color: #3b3838;
+  opacity: 0.8;
+}
+
+.sub-card__sub {
+  font-size: 30px;
+  line-height: 30px;
+  color: #3b3838;
+  opacity: 0.8;
+  vertical-align: baseline;
+}
+
+.sub-card__date {
+  margin: 15px 0 0 0;
+
+  color: #494949;
+  opacity: 0.7;
+  font-style: italic;
+
+  line-height: 30px;
+}
+
+.sub-card__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 227px;
+  height: 75px;
+
+  margin-top: 50px;
+
+  line-height: 30px;
+  font-size: 18px;
+  color: #ffffff;
+
+  border-radius: 50px;
+
+  background: linear-gradient(10deg, #21acdd, #9ddae9);
+}
+
+.sub-card--left {
+  .sub-card__list {
+    margin-top: 45px;
+  }
+
+  .sub-card__price {
+    margin-top: 62px;
+  }
+
+  .sub-card__link {
+    background: linear-gradient(15deg, #21acdd, #78ddfa);
+  }
+}
+
+.sub-card--mid {
+
+  height: 770px;
+  margin-top: 0;
+
+  overflow: hidden;
+
+  .sub-card__title {
+    margin: 0;
+    padding: 35px 0;
+    width: 100%;
+
+
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff6a6d;
+  }
+
+  .sub-card__item {
+    &::before {
+      background-image: url("../../img/icon-red.png");
+    }
+  }
+
+  .sub-card__link {
+    background: #ff6a6d;
+  }
+}

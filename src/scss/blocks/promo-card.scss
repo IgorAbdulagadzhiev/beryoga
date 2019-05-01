@@ -1,0 +1,22 @@
+.promo-card {
+
+  width: 270px;
+}
+
+.promo-card__img-container {
+  text-align: center;
+  height: 220px;
+}
+
+.promo-card__title {
+  margin: 50px 0 0 0;
+  color: $title-color;
+  text-align: center;
+}
+
+.promo-card__text {
+  margin: 20px 0 0 0;
+  font-weight: 100;
+  color: $text-color;
+  text-align: center;
+}

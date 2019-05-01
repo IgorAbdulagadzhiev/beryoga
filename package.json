@@ -1,0 +1,38 @@
+{
+  "name": "beryoga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorAbdulagajiev/beryoga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorAbdulagajiev/beryoga/issues"
+  },
+  "homepage": "https://github.com/IgorAbdulagajiev/beryoga#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.3",
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-cwebp": "^3.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-posthtml": "^3.0.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "posthtml-include": "^1.2.0"
+  }
+}
