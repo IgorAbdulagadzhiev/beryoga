@@ -40,7 +40,12 @@
       <div class="promo__cards-container">
         <div class="promo-card">
           <div class="promo-card__img-container">
-            <img src="./img/clock@1x.png" alt="иконка часов" class="promo-card__img" width="206" height="219">
+            <picture>
+            <source srcset="./img/clock@1x.webp 1x,
+                            ./img/clock@2x.webp 2x"
+                            type="image/webp">
+            <img src="./img/clock@1x.png" srcset="./img/clock@2x.png 2x" alt="иконка часов" class="promo-card__img" width="206" height="219">
+          </picture>
           </div>
 
           <h3 class="promo-card__title">Lifetime Updates</h3>
@@ -48,17 +53,25 @@
         </div>
         <div class="promo-card">
           <div class="promo-card__img-container">
-            <img src="./img/phone.png" alt="иконка часов" class="promo-card__img" width="206" height="209">
+            <picture>
+              <source srcset="./img/phone.webp 1x,
+                              ./img/phone@2x.webp 2x"
+                              type="image/webp">
+              <img src="./img/phone.png" srcset="./img/phone@2x.png 2x" alt="иконка телефона" class="promo-card__img" width="206" height="209">
+            </picture>
           </div>
-
           <h3 class="promo-card__title">Anywhere Videos</h3>
           <p class="promo-card__text">Access world-class online yoga videos can be seen on the application & web</p>
         </div>
         <div class="promo-card">
           <div class="promo-card__img-container">
-            <img src="./img/user.png" alt="иконка часов" class="promo-card__img" width="211" height="201">
+            <picture>
+              <source srcset="./img/user.webp 1x,
+                              ./img/user@2x.webp 2x"
+                              type="image/webp">
+              <img src="./img/user.png" srcset="./img/user@2x.png 2x" alt="иконка аватарки" class="promo-card__img" width="211" height="201">
+            </picture>
           </div>
-
           <h3 class="promo-card__title">Access Unlimited</h3>
           <p class="promo-card__text">Find lots of yoga video tutorials, from all over the world</p>
         </div>
@@ -129,7 +142,7 @@
         <a href="#" class="sub-card__link">Become A Member</a>
       </div>
       <div class="sub-card sub-card--mid">
-        <h3 class="sub-card__title">Yoga Class</h3>
+        <h3 class="sub-card__title">Best seller</h3>
         <ul class="sub-card__list">
             <li class="sub-card__item">Unlimitied Access Video</li>
             <li class="sub-card__item">Saved Videos</li>
@@ -161,68 +174,74 @@
     <footer class="footer">
       <div class="footer__main">
         <div class="footer__group">
-            <h4 class="footer__t itle">Contact Us</h4>
+            <h4 class="footer__title">Contact Us</h4>
             <ul class="footer__list">
-              <li class="footer__item">
-                Beryoga, Jl. Sudirman
-                no. 129, Tebet
+              <li class="footer__item footer__item--contact">
+                Beryoga, Jl. Sudirman <br>
+                no. 129, Tebet <br>
                 Jakarta Selatan
               </li>
               <li class="footer__item">
-                beryoga@yuk.com
+                beryoga@yuk.com <br>
                 0812 6824 2856 (Main)
                 (072) 2673842  (Toll-free)
               </li>
             </ul>
           </div>
         <div class="footer__group">
-            <h4 class="footer__title">Contact Us</h4>
+            <h4 class="footer__title">About us</h4>
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Our Mission
+                </a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Our Team</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Management</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Policies</a>
               </li>
             </ul>
           </div>
         <div class="footer__group">
-            <h4 class="footer__title">Contact Us</h4>
+            <h4 class="footer__title">Our Programs</h4>
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Yoga Class</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Bikram Yoga</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Acro Yoga</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Sveda Yoga
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Yo Mama
+                </a>
               </li>
             </ul>
           </div>
         <div class="footer__group">
-            <h4 class="footer__title">Contact Us</h4>
+            <h4 class="footer__title">support trails</h4>
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Donate</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Individual Membership</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Gift membership</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__item"></a>
+                <a href="#" class="footer__link">Hiker Store</a>
               </li>
             </ul>
           </div>

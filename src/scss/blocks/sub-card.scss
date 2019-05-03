@@ -122,11 +122,16 @@
 }
 
 .sub-card--mid {
+  position: relative;
 
   height: 770px;
+  width: 500px;
   margin-top: 0;
 
   overflow: hidden;
+
+  box-shadow: 10px 0 100px 2px #ff6a6d22,
+    -10px 0 100px 2px #ff6a6d22;
 
   .sub-card__title {
     margin: 0;
@@ -136,7 +141,9 @@
 
     text-align: center;
     color: #ffffff;
+    text-transform: uppercase;
     background-color: #ff6a6d;
+    opacity: 1;
   }
 
   .sub-card__item {

@@ -34,6 +34,14 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "FivoSans Modern";
+  src: url("../fonts/Fivosansmodernheavy.woff2") format("woff2"),
+    url("../fonts/Fivosansmodernheavy.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
 
 *,
 *::before,
