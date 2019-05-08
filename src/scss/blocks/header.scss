@@ -1,9 +1,9 @@
 .header {
   min-height: 1334px;
-  background-image: url("../../img/header-bg.png");
+  background-image: url("../img/header-bg.png");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../../img/header-bg@2x.png");
+    background-image: url("../img/header-bg@2x.png");
     background-size: 1920px auto;
   }
 }

@@ -57,6 +57,8 @@
 .footer__link {
   color: #2e2e2e;
 
+  transition: 0.1s linear;
+
   &:hover {
     color: $red-color;
   }

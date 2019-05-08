@@ -50,7 +50,7 @@
     left: 0;
     top: 0;
 
-    background-image: url("../../img/icon-blue.png");
+    background-image: url("../img/icon-blue.png");
   }
 }
 
@@ -148,7 +148,7 @@
 
   .sub-card__item {
     &::before {
-      background-image: url("../../img/icon-red.png");
+      background-image: url("../img/icon-red.png");
     }
   }
 

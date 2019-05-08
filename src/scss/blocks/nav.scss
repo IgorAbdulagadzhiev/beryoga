@@ -16,6 +16,8 @@
   line-height: 36px;
   color: #1c2056;
 
+  transition: 0.1s linear;
+
   &:hover {
     color: $red-color;
   }

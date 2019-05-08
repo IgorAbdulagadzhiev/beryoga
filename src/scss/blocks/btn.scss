@@ -4,6 +4,8 @@
   border: 2px $red-color solid;
   border-radius: 30px 30px 30px 30px;
 
+  transition: 0.1s linear;
+
   &:hover {
     background-color: #bf406b;
     border-color: #bf406b;
